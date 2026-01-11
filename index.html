@@ -395,9 +395,91 @@
                 <div class="contact-info hidden">
                     <h3>Informasi Kontak</h3>
                     <p>Silahkan hubungi saya melalui informasi di bawah ini atau gunakan formulir kontak</p>
+
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Alamat</h4>
+                            <p>Jalan Pengagasan timur, Tangerang, Indonesia</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>dikatama279@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Telepon</h4>
+                            <p>+62 812 3456 7891</p>
+                        </div>
+                    </div>
+
+                    <h3 style="margin-top: 2rem;">Media Sosial</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>  
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="X">
+                            <i class="fab fa-x"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-from hidden">
+                    <h3>Kirim Pesan</h3>
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Nama Lengkap</label>
+                            <input type="text" id="name" name="name" required>
+                            <div class="error-message" id="name-error">Nama harus diisi</div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                            <div class="error-message" id="email-error">Email tidak valid</div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subjek</label>
+                            <input type="text" id="subject" name="subject" required>
+                            <div class="error-message" id="subject-error">Subjel harus diisi</div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Pesan</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <div class="error-message" id="message-error">Pesan harus diisi</div>
+                        </div>
+
+                        <button type="submit" class="btn">Kirim Pesan</button>
+                        <div class="success-message" id="success-message">
+                            Pesan anda berhasil dikirim. Saya akan membalas secepatnya
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 TamaDika. All rights reserved.</p>
+            <p class="copyright">Landing Page Profil Mahasiswa - Dibuat dengan HTML, CSS, dan JavaScript</p>
+        </div>
+    </footer>
 </body>
 </html>
